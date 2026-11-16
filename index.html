@@ -69,7 +69,7 @@
     </header>
 
     <main>
-      <section id="hero" class="hero"> 
+      <section id="hero" class="hero">
         <div class="container">
           <h1 class="sol">Effective Solutions for Your Business</h1>
           <button type="button" class="order">Order Service</button>
@@ -137,7 +137,13 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/team-1.jpg" alt="Mark Guerrero" width="264" />
+              <img
+                srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
+                src="./images/team-1.jpg"
+                alt="Mark Guerrero"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-container">
                 <h3>Mark Guerrero</h3>
                 <p>Product Designer</p>
@@ -174,7 +180,13 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team-2.jpg" alt="Tom Ford" width="264" />
+              <img
+                srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
+                src="./images/team-2.jpg"
+                alt="Tom Ford"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-container">
                 <h3>Tom Ford</h3>
                 <p>Frontend Developer</p>
@@ -211,7 +223,13 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team-3.jpg" alt="Camila Garcia" width="264" />
+              <img
+                srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
+                src="./images/team-3.jpg"
+                alt="Camila Garcia"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-container">
                 <h3>Camila Garcia</h3>
                 <p>Marketing</p>
@@ -248,7 +266,13 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/team-4.jpg" alt="Daniel Wilson" width="264" />
+              <img
+                srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
+                src="./images/team-4.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                loading="lazy"
+              />
               <div class="team-container">
                 <h3>Daniel Wilson</h3>
                 <p>UI Designer</p>
@@ -295,9 +319,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1@2x.jpg 2x
+                  "
                   src="./images/portfolio-1.jpg"
                   alt="Banking menu"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -313,9 +342,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2@2x.jpg 2x
+                  "
                   src="./images/portfolio-2.jpg"
                   alt="Phone scans the QR code"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -331,9 +365,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3@2x.jpg 2x
+                  "
                   src="./images/portfolio-3.jpg"
                   alt="A laptop on a gray background"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -349,9 +388,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4@2x.jpg 2x
+                  "
                   src="./images/portfolio-4.jpg"
                   alt="A driver behind the wheel of a car"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -367,9 +411,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5@2x.jpg 2x
+                  "
                   src="./images/portfolio-5.jpg"
                   alt="A looked smartphone with four screen jptions"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -385,9 +434,14 @@
             <li class="portfolio-item">
               <div class="overlay">
                 <img
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6@2x.jpg 2x
+                  "
                   src="./images/portfolio-6.jpg"
                   alt="A smiling girl using a phone"
                   width="360"
+                  loading="lazy"
                 />
                 <p class="overlay-paragraph">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -405,6 +459,7 @@
       </section>
     </main>
 
+    <!-- footer -->
     <footer id="footer" class="footer">
       <div class="container">
         <div class="footer-left">
@@ -538,7 +593,7 @@
     </div>
 
     <!--Modal window-->
-    <div class="backdrop" id="modal">
+    <div class="backdrop is-open" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal button">
           <svg class="modal-btn-icon" width="8" height="8">
@@ -618,14 +673,16 @@
                   <use href="./images/icons.svg#check-mark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a
-                class="modal-form-link"
-                href="#"
-                target="_blank"
-                rel="noopener no-referrer"
-                >Privacy Policy</a
-              >
+              <span>
+                I accept the terms and conditions of the
+                <a
+                  class="modal-form-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
           <button class="modal-form-btn" type="submit">Send</button>
