@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -30,15 +30,13 @@
 @media only screen and (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
-    gap: 24px 72px;
-    width: calc((100% - 24px * 1) / 2);
+    gap: 72px 24px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .portfolio-list {
-    gap: 24px 48px;
-    width: calc((100% - 24px * 2) / 3);
+    gap: 48px 24px;
   }
 }
 
@@ -78,6 +76,7 @@
   .portfolio-item {
     width: 356px;
     height: 296px;
+    width: calc((100% - 24px * 1) / 2);
   }
 }
 
@@ -85,6 +84,7 @@
   .portfolio-item {
     width: 360px;
     height: 300px;
+    width: calc((100% - 24px * 2) / 3);
   }
 }
 

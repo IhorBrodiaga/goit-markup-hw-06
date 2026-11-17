@@ -30,12 +30,8 @@
             >Web<span class="accent">Studio</span></a
           >
           <button class="mobile-menu-btn" type="button">
-            <svg class="mobile-menu-btn-icon">
-              <use
-                href="./images/icons.svg#burger-menu"
-                width="24"
-                height="24"
-              ></use>
+            <svg class="mobile-menu-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#burger-menu"></use>
             </svg>
           </button>
 
@@ -321,7 +317,7 @@
                 <img
                   srcset="
                     ./images/portfolio-1.jpg    1x,
-                    ./images/portfolio-1@2x.jpg 2x
+                    ./images/portfolio@2x-1.jpg 2x
                   "
                   src="./images/portfolio-1.jpg"
                   alt="Banking menu"
@@ -344,7 +340,7 @@
                 <img
                   srcset="
                     ./images/portfolio-2.jpg    1x,
-                    ./images/portfolio-2@2x.jpg 2x
+                    ./images/portfolio@2x-2.jpg 2x
                   "
                   src="./images/portfolio-2.jpg"
                   alt="Phone scans the QR code"
@@ -367,7 +363,7 @@
                 <img
                   srcset="
                     ./images/portfolio-3.jpg    1x,
-                    ./images/portfolio-3@2x.jpg 2x
+                    ./images/portfolio@2x-3.jpg 2x
                   "
                   src="./images/portfolio-3.jpg"
                   alt="A laptop on a gray background"
@@ -390,7 +386,7 @@
                 <img
                   srcset="
                     ./images/portfolio-4.jpg    1x,
-                    ./images/portfolio-4@2x.jpg 2x
+                    ./images/portfolio@2x-4.jpg 2x
                   "
                   src="./images/portfolio-4.jpg"
                   alt="A driver behind the wheel of a car"
@@ -413,7 +409,7 @@
                 <img
                   srcset="
                     ./images/portfolio-5.jpg    1x,
-                    ./images/portfolio-5@2x.jpg 2x
+                    ./images/portfolio@2x-5.jpg 2x
                   "
                   src="./images/portfolio-5.jpg"
                   alt="A looked smartphone with four screen jptions"
@@ -436,7 +432,7 @@
                 <img
                   srcset="
                     ./images/portfolio-6.jpg    1x,
-                    ./images/portfolio-6@2x.jpg 2x
+                    ./images/portfolio@2x-6.jpg 2x
                   "
                   src="./images/portfolio-6.jpg"
                   alt="A smiling girl using a phone"
@@ -527,7 +523,7 @@
     </footer>
 
     <!--Mobile-menu-->
-    <div class="mobile-menu">
+    <div class="mobile-menu" id="mobile-menu">
       <div class="mobile-menu-container">
         <button class="mobile-menu-btn">
           <svg class="mobile-menu-icon" width="8" height="8">
@@ -593,7 +589,7 @@
     </div>
 
     <!--Modal window-->
-    <div class="backdrop is-open" id="modal">
+    <div class="backdrop" id="modal">
       <div class="modal">
         <button class="modal-btn" type="button" aria-label="Close modal button">
           <svg class="modal-btn-icon" width="8" height="8">
