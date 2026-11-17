@@ -30,6 +30,19 @@
   flex-direction: row;
   gap: 0;
   margin-right: 120px;
+  padding: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    padding: 24px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .logo {
+    margin-right: 76px;
+  }
 }
 
 .logo .accent {
@@ -57,18 +70,21 @@
   transition-property: color;
 }
 
+@media only screen and (min-width: 1158px) {
+  .mailto,
+  .tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
 .mailto:hover,
 .mailto:focus,
 .tel:hover,
 .tel:focus {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .header-menu-link {

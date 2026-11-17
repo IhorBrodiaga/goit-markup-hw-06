@@ -45,7 +45,6 @@
     width: calc((100% - 24px * 1) / 2);
     flex-wrap: wrap;
     max-width: 356px;
-    width: 100%;
   }
 }
 
@@ -53,7 +52,6 @@
   .features-item {
     width: calc((100% - 24px * 3) / 4);
     max-width: 264px;
-    width: 100%;
   }
 }
 
