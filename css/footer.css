@@ -143,14 +143,19 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 16px;
-  margin-left: auto;
+  gap: 16px;  
 }
 
 @media only screen and (min-width: 768px) {
   .container-form {
     align-items: flex-start;
     justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .container-form {
+    margin-left: auto;
   }
 }
 

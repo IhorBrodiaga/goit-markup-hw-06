@@ -106,16 +106,19 @@
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+}
 
+.tel, .mailto {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #4d5ae5;
   font-style: normal;
+  text-decoration: none;
 }
 
-.mobile-menu-address-list-1 {
+.mailto {
   color: #434455;
 }
 
