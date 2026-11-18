@@ -205,13 +205,14 @@
   color: #fff;
   transition: 250ms ease-out;
   transition-property: border-color;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
   .footer-form-input {
     align-items: center;
     justify-content: flex-start;
-    max-width: 264px;
+    width: 264px;
   }
 }
 

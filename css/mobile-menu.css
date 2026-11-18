@@ -108,18 +108,22 @@
   margin-bottom: 48px;
 }
 
-.tel, .mailto {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #4d5ae5;
-  font-style: normal;
-  text-decoration: none;
+@media only screen and (max-width: 767.98px) {
+  .tel, .mailto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+    font-style: normal;
+    text-decoration: none;
+  }
 }
 
-.mailto {
-  color: #434455;
+@media only screen and (max-width: 767.98px) {
+  .mailto {
+    color: #434455;
+  }
 }
 
 .mobile-menu-social-list {
