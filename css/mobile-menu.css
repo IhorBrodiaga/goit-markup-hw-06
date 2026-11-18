@@ -109,7 +109,8 @@
 }
 
 @media only screen and (max-width: 767.98px) {
-  .tel, .mailto {
+  .mobile-menu .tel,
+  .mobile-menu .mailto {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -121,7 +122,7 @@
 }
 
 @media only screen and (max-width: 767.98px) {
-  .mailto {
+  .mobile-menu .mailto {
     color: #434455;
   }
 }
