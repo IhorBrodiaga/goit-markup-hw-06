@@ -30,7 +30,6 @@
   flex-direction: row;
   gap: 0;
   margin-right: 120px;
-  padding: 16px 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -177,7 +176,7 @@
   }
 }
 
-.mobile-menu-btn {
+.header-menu-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,10 +189,10 @@
   line-height: 0;
 }
 
-.mobile-menu-btn:focus {
+.header-menu-btn:focus {
   outline: none;
 }
 
-.mobile-menu-btn-icon {
+.header-menu-btn-icon {
   color: #2e2f42;
 }
